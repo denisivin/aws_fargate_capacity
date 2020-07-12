@@ -1,0 +1,14 @@
+[package]
+name = "aws_fargate_capacity"
+version = "0.1.0"
+authors = ["denis@ivin.me"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.11"
+tokio = "0.2.21"
+indicatif = "0.15.0"
+rusoto_core = "0.44.0"
+rusoto_ecs = "0.44.0"
